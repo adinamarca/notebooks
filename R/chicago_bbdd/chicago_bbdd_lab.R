@@ -11,12 +11,12 @@
 
 ### ___________________________________________
 ## Segunda Sesion: 07/08/2020, 20:00 - 21:30
-## Comentarios: Realización (4)
+## Comentarios: RealizaciÃ³n (4)
 ### ___________________________________________
 
 ### ___________________________________________
 ## Tercera Sesion: 11/08/2020, 00:15 - 02:16
-## Comentarios: Realización (5) y (6)
+## Comentarios: RealizaciÃ³n (5) y (6)
 ### ___________________________________________
 
 ### ___________________________________________
@@ -28,7 +28,7 @@
 ### ___________________________________________
 
 ### ___________________________________________
-## S�ptima Sesion: 21/08/2020, 21:08 - 24:00
+## Séptima Sesion: 21/08/2020, 21:08 - 24:00
 ### ___________________________________________
 
 ### ___________________________________________
@@ -127,7 +127,7 @@ datamedidasDF <- data.frame(dataMediaDF)
 datamedidasDF
 
 
-# Dataframe de medidas de tendencia central y dispersión con mejor apariencia visual
+# Dataframe de medidas de tendencia central y dispersiÃ³n con mejor apariencia visual
 
 formattable(dataMediaDF, list('Composicion Racial' = color_tile("white", "orange"), 'Incendios por 100 Viviendas' = color_tile("white", "gray"),
                        'Robo por 1000 Habitantes' = color_tile("white", "pink"), 'Porcentaje Viviendas 1939' = color_tile("white", "cyan"),
@@ -138,15 +138,15 @@ formattable(dataMediaDF, list('Composicion Racial' = color_tile("white", "orange
 
 ### (4) Plot antes de limpiar datos
 
-# Ejecutar antes de plotear gráficos
+# Ejecutar antes de plotear grÃ¡ficos
 
 
 colores <- c("blue", "red", "green", "yellow", "blue", "red", "green", "yellow")
-titulos <- c("Distribución Composición Racial", "Distribución Incendios por 100 Viviendas", "Distribución Robo por 1000 Habitantes",
-             "Distribución Porcentaje Viviendas 1939", "Distribución Vieja Politica Vivienda", "Distribución Nueva Politica FAIR",
-             "Distribución Ingreso Medio Familiar")
+titulos <- c("DistribuciÃ³n ComposiciÃ³n Racial", "DistribuciÃ³n Incendios por 100 Viviendas", "DistribuciÃ³n Robo por 1000 Habitantes",
+             "DistribuciÃ³n Porcentaje Viviendas 1939", "DistribuciÃ³n Vieja Politica Vivienda", "DistribuciÃ³n Nueva Politica FAIR",
+             "DistribuciÃ³n Ingreso Medio Familiar")
 
-nombresx <- c("Composición racial en porcentaje minoritario", "Incendios cada 100 viviendas", "Robo cada 1000 habitantes", "Porcentaje viviendas construidas antes de 1939", "Viejas políticas de viviendas cada 100", "Nuevas políticas de viviendas cada 100","Ingreso medio familiar")
+nombresx <- c("ComposiciÃ³n racial en porcentaje minoritario", "Incendios cada 100 viviendas", "Robo cada 1000 habitantes", "Porcentaje viviendas construidas antes de 1939", "Viejas polÃ­ticas de viviendas cada 100", "Nuevas polÃ­ticas de viviendas cada 100","Ingreso medio familiar")
 n <- 1
 par(oma=c(1.5,1.5,1,1),mar=c(3.8,3.8,3.8,3.8),mfrow=c(2,2), col = 'white')
 
@@ -195,32 +195,32 @@ iniciocor
 ########################## Correlaciones simples antes de limpiar data ##########################
 
 
-# La relación de RACE y FIRE es fuerte y positiva.
-# La relación de RACE y THEFT es débil y positiva.
-# La relación de RACE y AGE es débil y positiva.
-# La relación de RACE y VOLACT es fuerte y negativa.
-# La relación de RACE e INVOLACT es fuerte y positiva.
-# La relación de RACE e INCOME es fuerte y negativa.
+# La relaciÃ³n de RACE y FIRE es fuerte y positiva.
+# La relaciÃ³n de RACE y THEFT es dÃ©bil y positiva.
+# La relaciÃ³n de RACE y AGE es dÃ©bil y positiva.
+# La relaciÃ³n de RACE y VOLACT es fuerte y negativa.
+# La relaciÃ³n de RACE e INVOLACT es fuerte y positiva.
+# La relaciÃ³n de RACE e INCOME es fuerte y negativa.
 
-# La relación de FIRE y THEFT es fuerte y positiva.
-# La relación de FIRE y AGE es moderada y positiva.
-# La relación de FIRE y VOLACT es fuerte y negativa.
-# La relación de FIRE e INVOLACT es fuerte y positiva.
-# La relación de FIRE e INCOME es fuerte y negativa.
+# La relaciÃ³n de FIRE y THEFT es fuerte y positiva.
+# La relaciÃ³n de FIRE y AGE es moderada y positiva.
+# La relaciÃ³n de FIRE y VOLACT es fuerte y negativa.
+# La relaciÃ³n de FIRE e INVOLACT es fuerte y positiva.
+# La relaciÃ³n de FIRE e INCOME es fuerte y negativa.
 
-# La relación de THEFT y AGE es moderada y positiva.
-# La realción de THEFT y VOLACT es fuerte y negativa.
-# La relación de THEFT e INVOLACT es moderada y positiva.
-# La relación de THEFT e INCOME es fuerte y negativa.
+# La relaciÃ³n de THEFT y AGE es moderada y positiva.
+# La realciÃ³n de THEFT y VOLACT es fuerte y negativa.
+# La relaciÃ³n de THEFT e INVOLACT es moderada y positiva.
+# La relaciÃ³n de THEFT e INCOME es fuerte y negativa.
 
-# La relación de AGE y VOLACT es fuerte y negativa.
-# La relación de AGE e INVOLACT es moderada y positiva.
-# La relación de AGE e INCOME es fuerte y negativa.
+# La relaciÃ³n de AGE y VOLACT es fuerte y negativa.
+# La relaciÃ³n de AGE e INVOLACT es moderada y positiva.
+# La relaciÃ³n de AGE e INCOME es fuerte y negativa.
 
-# La relación de VOLACT e INVOLACT es fuerte y negativa.
-# La relación de VOLACT e INCOME es fuerte y positiva.
+# La relaciÃ³n de VOLACT e INVOLACT es fuerte y negativa.
+# La relaciÃ³n de VOLACT e INCOME es fuerte y positiva.
 
-# La relación de INVOLACT e INCOME es fuerte y negativa.
+# La relaciÃ³n de INVOLACT e INCOME es fuerte y negativa.
 
 
 # Se observa tres outliers en la variable FIRE y THEFT, mientras en las variables AGE e INCOME solo un outlier
@@ -264,7 +264,7 @@ data[7,7] <- datamedidasDF[1,7]
 
 #data <- data[-which(data$ingresofamiliar....chicago.income %in% outIncome),]
 
-# Tras limpieza, se arrojan tres outlier más, dos en FIRE y uno en THEFT
+# Tras limpieza, se arrojan tres outlier mÃ¡s, dos en FIRE y uno en THEFT
 
 outFire <- boxplot(data[,2], plot=FALSE)$out
 outTheft <- boxplot(data[,3], plot=FALSE)$out
@@ -279,7 +279,7 @@ data[which(data$robo....chicago.theft %in% outTheft),]
 data[5,3] <- datamedidasDF[1,3]
 data[45,3] <- datamedidasDF[1,3]
 
-# Tras nueva limpieza, se arrojan dos utliner más, uno en FIRE y otro en THEFT
+# Tras nueva limpieza, se arrojan dos utliner mÃ¡s, uno en FIRE y otro en THEFT
 
 outFire <- boxplot(data[,2], plot=FALSE)$out
 outTheft <- boxplot(data[,3], plot=FALSE)$out
@@ -295,7 +295,7 @@ data[29,3] <- datamedidasDF[1,3]
 
 # Termino de limpieza de outliers
 #(total limpiados: 5 filas de datos)
-#--> Tras repensar el método de limpieza y la pérdida de datos si se eliminan filas, se optó por
+#--> Tras repensar el mÃ©todo de limpieza y la pÃ©rdida de datos si se eliminan filas, se optÃ³ por
 # corregir dichos outlier colocando la media en las celdas correspondientes. Por lo tanto
 
 # se corregieron 6 outlier de la variable FIRE
@@ -314,17 +314,17 @@ cor <- finalcor
 cor
 
 
-### (6) Plot después de limpiar datos
+### (6) Plot despuÃ©s de limpiar datos
 
-# Ejecutar antes de plotear gráficos
+# Ejecutar antes de plotear grÃ¡ficos
 
 
 colores <- c("blue", "red", "green", "yellow", "blue", "red", "green", "yellow")
-titulos <- c("Distribución Composición Racial", "Distribución Incendios por 100 Viviendas", "Distribución Robo por 1000 Habitantes",
-             "Distribución Porcentaje Viviendas 1939", "Distribución Nueva Politica Vivienda", "Distribución Nueva Politica FAIR",
-             "Distribución Ingreso Medio Familiar")
+titulos <- c("DistribuciÃ³n ComposiciÃ³n Racial", "DistribuciÃ³n Incendios por 100 Viviendas", "DistribuciÃ³n Robo por 1000 Habitantes",
+             "DistribuciÃ³n Porcentaje Viviendas 1939", "DistribuciÃ³n Nueva Politica Vivienda", "DistribuciÃ³n Nueva Politica FAIR",
+             "DistribuciÃ³n Ingreso Medio Familiar")
 
-nombresx <- c("Composición racial en porcentaje minoritario", "Incendios cada 100 viviendas", "Robo cada 1000 habitantes", "Porcentaje viviendas construidas antes de 1939", "Viejas políticas de viviendas cada 100", "Nuevas políticas de viviendas cada 100","Ingreso medio familiar")
+nombresx <- c("ComposiciÃ³n racial en porcentaje minoritario", "Incendios cada 100 viviendas", "Robo cada 1000 habitantes", "Porcentaje viviendas construidas antes de 1939", "Viejas polÃ­ticas de viviendas cada 100", "Nuevas polÃ­ticas de viviendas cada 100","Ingreso medio familiar")
 n <- 1
 par(oma=c(1.5,1.5,1,1),mar=c(3.8,3.8,3.8,3.8),mfrow=c(2,2))
 
@@ -370,39 +370,39 @@ cor
 ########################## Correlaciones simples tras limpieza de data  ##########################
 
 
-# La relación de RACE y FIRE es fuerte y positiva.
-# La relación de RACE y THEFT es fuerte y positiva.
-# La relación de RACE y AGE es débil y positiva.
-# La relación de RACE y VOLACT es fuerte y negativa.
-# La relación de RACE e INVOLACT es fuerte y positiva.
-# La relación de RACE e INCOME es fuerte y negativa.
+# La relaciÃ³n de RACE y FIRE es fuerte y positiva.
+# La relaciÃ³n de RACE y THEFT es fuerte y positiva.
+# La relaciÃ³n de RACE y AGE es dÃ©bil y positiva.
+# La relaciÃ³n de RACE y VOLACT es fuerte y negativa.
+# La relaciÃ³n de RACE e INVOLACT es fuerte y positiva.
+# La relaciÃ³n de RACE e INCOME es fuerte y negativa.
 
-# La relación de FIRE y THEFT es fuerte y positiva.
-# La relación de FIRE y AGE es moderada y positiva.
-# La relación de FIRE y VOLACT es fuerte y negativa.
-# La relación de FIRE e INVOLACT es fuerte y positiva.
-# La relación de FIRE e INCOME es fuerte y negativa.
+# La relaciÃ³n de FIRE y THEFT es fuerte y positiva.
+# La relaciÃ³n de FIRE y AGE es moderada y positiva.
+# La relaciÃ³n de FIRE y VOLACT es fuerte y negativa.
+# La relaciÃ³n de FIRE e INVOLACT es fuerte y positiva.
+# La relaciÃ³n de FIRE e INCOME es fuerte y negativa.
 
-# La relación de THEFT y AGE es moderada y positiva.
-# La realción de THEFT y VOLACT es fuerte y negativa.
-# La relación de THEFT e INVOLACT es moderada y positiva.
-# La relación de THEFT e INCOME es fuerte y negativa.
+# La relaciÃ³n de THEFT y AGE es moderada y positiva.
+# La realciÃ³n de THEFT y VOLACT es fuerte y negativa.
+# La relaciÃ³n de THEFT e INVOLACT es moderada y positiva.
+# La relaciÃ³n de THEFT e INCOME es fuerte y negativa.
 
-# La relación de AGE y VOLACT es fuerte y negativa.
-# La relación de AGE e INVOLACT es moderada y positiva.
-# La relación de AGE e INCOME es fuerte y negativa.
+# La relaciÃ³n de AGE y VOLACT es fuerte y negativa.
+# La relaciÃ³n de AGE e INVOLACT es moderada y positiva.
+# La relaciÃ³n de AGE e INCOME es fuerte y negativa.
 
-# La relación de VOLACT e INVOLACT es fuerte y negativa.
-# La relación de VOLACT e INCOME es fuerte y positiva.
+# La relaciÃ³n de VOLACT e INVOLACT es fuerte y negativa.
+# La relaciÃ³n de VOLACT e INCOME es fuerte y positiva.
 
-# La relación de INVOLACT e INCOME es fuerte y negativa.
+# La relaciÃ³n de INVOLACT e INCOME es fuerte y negativa.
 
 
-# Recordar: al restar la intersección de varianzas de ambas serie de datos A y B (en este caso, la intersección de las varianzas de
+# Recordar: al restar la intersecciÃ³n de varianzas de ambas serie de datos A y B (en este caso, la intersecciÃ³n de las varianzas de
 #las siete variables), se elimina el ruido de una variable C
-# que afecta las correlaciones simples, por ende, la correlación parcial es más segura.
-# "Eliminando la varianza compartida por las variables de interés con la o las variables auxiliares, obtenemos una medida de r
-# que refleja los efectos de las variables de interés primario."
+# que afecta las correlaciones simples, por ende, la correlaciÃ³n parcial es mÃ¡s segura.
+# "Eliminando la varianza compartida por las variables de interÃ©s con la o las variables auxiliares, obtenemos una medida de r
+# que refleja los efectos de las variables de interÃ©s primario."
 
 
 
@@ -414,38 +414,38 @@ corr
 
 
 # Debido al ruido entre dos variables, constituido por las varianzas de otras 5 variables comprometidas en la base de datos, 
-# la correlación simple puede no ser del todo certera.
-# Es por ello que, tras eliminar la intersección de varianzas entre las variables, se modifican dichas correlaciones resultando en las
-# correlaciones parciales que, en la práctica, son las correlaciones simples pero sin el ruido interferiendo entre variables.
-# Por lo tanto, redefiniendo dichas correlaciones de manera más segura será posible apreciar cambios:
+# la correlaciÃ³n simple puede no ser del todo certera.
+# Es por ello que, tras eliminar la intersecciÃ³n de varianzas entre las variables, se modifican dichas correlaciones resultando en las
+# correlaciones parciales que, en la prÃ¡ctica, son las correlaciones simples pero sin el ruido interferiendo entre variables.
+# Por lo tanto, redefiniendo dichas correlaciones de manera mÃ¡s segura serÃ¡ posible apreciar cambios:
 
 
-# La relación de RACE y FIRE es débil y positiva.
-# La relación de RACE y THEFT es moderada y positiva.
-# La relación de RACE y AGE es fuerte y negativa.
-# La relación de RACE y VOLACT es débil y negativa.
-# La relación de RACE e INVOLACT es moderada y positiva.
-# La relación de RACE e INCOME es moderada y negativa.
+# La relaciÃ³n de RACE y FIRE es dÃ©bil y positiva.
+# La relaciÃ³n de RACE y THEFT es moderada y positiva.
+# La relaciÃ³n de RACE y AGE es fuerte y negativa.
+# La relaciÃ³n de RACE y VOLACT es dÃ©bil y negativa.
+# La relaciÃ³n de RACE e INVOLACT es moderada y positiva.
+# La relaciÃ³n de RACE e INCOME es moderada y negativa.
 
-# La relación de FIRE y THEFT es casi nula y negativa.
-# La relación de FIRE y AGE es casi nula y positiva.
-# La relación de FIRE y VOLACT es débil y negativa.
-# La relación de FIRE e INVOLACT es moderada y positiva.
-# La relación de FIRE e INCOME es casi nula y negativa.
+# La relaciÃ³n de FIRE y THEFT es casi nula y negativa.
+# La relaciÃ³n de FIRE y AGE es casi nula y positiva.
+# La relaciÃ³n de FIRE y VOLACT es dÃ©bil y negativa.
+# La relaciÃ³n de FIRE e INVOLACT es moderada y positiva.
+# La relaciÃ³n de FIRE e INCOME es casi nula y negativa.
 
-# La relación de THEFT y AGE es débil y positiva.
-# La realción de THEFT y VOLACT es casi débil y negativa.
-# La relación de THEFT e INVOLACT es casi débil y negativa.
-# La relación de THEFT e INCOME es casi nula y positiva.
+# La relaciÃ³n de THEFT y AGE es dÃ©bil y positiva.
+# La realciÃ³n de THEFT y VOLACT es casi dÃ©bil y negativa.
+# La relaciÃ³n de THEFT e INVOLACT es casi dÃ©bil y negativa.
+# La relaciÃ³n de THEFT e INCOME es casi nula y positiva.
 
-# La relación de AGE y VOLACT es débil y negativa.
-# La relación de AGE e INVOLACT es débil y positiva.
-# La relación de AGE e INCOME es débil y negativa.
+# La relaciÃ³n de AGE y VOLACT es dÃ©bil y negativa.
+# La relaciÃ³n de AGE e INVOLACT es dÃ©bil y positiva.
+# La relaciÃ³n de AGE e INCOME es dÃ©bil y negativa.
 
-# La relación de VOLACT e INVOLACT es débil y negativa.
-# La relación de VOLACT e INCOME es casi fuerte y positiva.
+# La relaciÃ³n de VOLACT e INVOLACT es dÃ©bil y negativa.
+# La relaciÃ³n de VOLACT e INCOME es casi fuerte y positiva.
 
-# La relación de INVOLACT e INCOME es casi nula y positiva.
+# La relaciÃ³n de INVOLACT e INCOME es casi nula y positiva.
 
 
 pvalor <- pcor(data)$p.value
@@ -454,7 +454,7 @@ pvalor
 ########################## P valor ########################## 
 
 
-# De aquí se obtiene que aquellas relaciones estadísticamente significativas son aquellas con un p valor menor a 0.05:
+# De aquÃ­ se obtiene que aquellas relaciones estadÃ­sticamente significativas son aquellas con un p valor menor a 0.05:
 
 # RACE y THEFT.
 # RACE y AGE.
@@ -473,10 +473,10 @@ pvalor
 # INVOLACT y FIRE.
 
 
-# (8) Obteniendo gráficos de dispersión
+# (8) Obteniendo grÃ¡ficos de dispersiÃ³n
 
-print("######################### MODELO DE REGRESI�N SIMPLE #########################")
-######################### MODELO DE REGRESI�N SIMPLE #########################
+print("######################### MODELO DE REGRESIÓN SIMPLE #########################")
+######################### MODELO DE REGRESIÓN SIMPLE #########################
 
 pairs(data, col.main="white", col.sub="white", col.lab="white",
       col.axis="white", fg="white", pch=20,col="red")
@@ -491,7 +491,7 @@ summary(rel)
 x = data$robo....chicago.theft
 y = data$raza....chicago.race
 plot(x=x, y=y , xlab="Theft", ylab="Race", col.main="white", col.sub="white", col.lab="white",
-     col.axis="white", fg="white",col="yellow", pch=20, main="Modelo de regresi�n simple RACE y THEFT")
+     col.axis="white", fg="white",col="yellow", pch=20, main="Modelo de regresión simple RACE y THEFT")
 abline(lm(y~x))
 
 
@@ -502,7 +502,7 @@ summary(rel)
 x = data$edad....chicago.age
 y = data$raza....chicago.race
 plot(x=x, y=y , xlab="Age", ylab="Race", col.main="white", col.sub="white", col.lab="white",
-     col.axis="white", fg="white",col="purple", pch=20, main="Modelo de regresi�n simple RACE y AGE")
+     col.axis="white", fg="white",col="purple", pch=20, main="Modelo de regresión simple RACE y AGE")
 abline(lm(y~x))
 
 
@@ -513,7 +513,7 @@ summary(rel)
 x = data$politicavivienda2....chicago.involact
 y = data$raza....chicago.race
 plot(x=x, y=y , xlab="Involact", ylab="Race", col.main="white", col.sub="white", col.lab="white",
-     col.axis="white", fg="white",col="red", pch=20, main="Modelo de regresi�n simple RACE e INVOLACT")
+     col.axis="white", fg="white",col="red", pch=20, main="Modelo de regresión simple RACE e INVOLACT")
 abline(lm(y~x))
 
 
@@ -524,7 +524,7 @@ summary(rel)
 x = data$ingresofamiliar....chicago.income
 y = data$raza....chicago.race
 plot(x=x, y=y , xlab="Income", ylab="Race", col.main="white", col.sub="white", col.lab="white",
-     col.axis="white", fg="white",col="green", pch=20, main="Modelo de regresi�n simple RACE e INCOME")
+     col.axis="white", fg="white",col="green", pch=20, main="Modelo de regresión simple RACE e INCOME")
 abline(lm(y~x))
 
 
@@ -539,7 +539,7 @@ summary(rel)
 x = data$politicaVivienda1....chicago.volact
 y = data$fuego....chicago.fire
 plot(x=x, y=y , xlab="Volact", ylab="Fire", col.main="white", col.sub="white", col.lab="white",
-     col.axis="white", fg="white",col="orange", pch=20, main="Modelo de regresi�n simple FIRE y VOLACT")
+     col.axis="white", fg="white",col="orange", pch=20, main="Modelo de regresión simple FIRE y VOLACT")
 abline(lm(y~x))
 
 
@@ -551,7 +551,7 @@ summary(rel)
 x = data$politicavivienda2....chicago.involact
 y = data$fuego....chicago.fire
 plot(x=x, y=y , xlab="Involact", ylab="Fire", col.main="white", col.sub="white", col.lab="white",
-     col.axis="white", fg="white",col="brown", pch=20, main="Modelo de regresi�n simple FIRE e INVOLACT")
+     col.axis="white", fg="white",col="brown", pch=20, main="Modelo de regresión simple FIRE e INVOLACT")
 abline(lm(y~x))
 
 # THEFT 
@@ -564,7 +564,7 @@ x = data$fuego....chicago.fire
 y = data$robo....chicago.theft
 
 plot(x=x, y=y , col.main="white", col.sub="white", col.lab="white",
-     col.axis="white", fg="white",col="blue", pch=20, ylab="Theft", xlab="Fire", main="Modelo de regresi�n simple FIRE y THEFT")
+     col.axis="white", fg="white",col="blue", pch=20, ylab="Theft", xlab="Fire", main="Modelo de regresión simple FIRE y THEFT")
 abline(lm(y~x))
 
 
@@ -575,7 +575,7 @@ summary(rel)
 x = data$politicaVivienda1....chicago.volact
 y = data$robo....chicago.theft
 plot(x=x, y=y , col.main="white", col.sub="white", col.lab="white",
-     col.axis="white", fg="white",col="tomato", pch=20, ylab="Theft", xlab="Volact", main="Modelo de regresi�n simple VOLACT y THEFT")
+     col.axis="white", fg="white",col="tomato", pch=20, ylab="Theft", xlab="Volact", main="Modelo de regresión simple VOLACT y THEFT")
 abline(lm(y~x))
 
 # R cuadrado: 15.56%
@@ -588,7 +588,7 @@ x = data$politicavivienda2....chicago.involact
 y = data$robo....chicago.theft
 
 plot(x=x, y=y , col.main="white", col.sub="white", col.lab="white",
-     col.axis="white", fg="white",col="magenta", pch=20, ylab="Theft", xlab="Involact", main="Modelo de regresi�n simple INVOLACT y THEFT")
+     col.axis="white", fg="white",col="magenta", pch=20, ylab="Theft", xlab="Involact", main="Modelo de regresión simple INVOLACT y THEFT")
 abline(lm(y~x))
 
 
@@ -604,7 +604,7 @@ x = data$ingresofamiliar....chicago.income
 y = data$politicaVivienda1....chicago.volact
 
 plot(x=x, y=y , col.main="white", col.sub="white", col.lab="white",
-     col.axis="white", fg="white",col="dark red", pch=20, ylab="Volact", xlab="Income", main="Modelo de regresi�n simple INCOME y VOLACT")
+     col.axis="white", fg="white",col="dark red", pch=20, ylab="Volact", xlab="Income", main="Modelo de regresión simple INCOME y VOLACT")
 abline(lm(y~x))
 
 # INVOLACT
@@ -619,12 +619,12 @@ x = data$ingresofamiliar....chicago.income
 y = data$politicavivienda2....chicago.involact
 
 plot(x=x, y=y , col.main="white", col.sub="white", col.lab="white",
-     col.axis="white", fg="white",col="cyan", pch=20, ylab="Involact", xlab="Income", main="Modelo de regresi�n simple INVOLACT e INCOME")
+     col.axis="white", fg="white",col="cyan", pch=20, ylab="Involact", xlab="Income", main="Modelo de regresión simple INVOLACT e INCOME")
 abline(lm(y~x))
 
 
-print("######################### MODELO DE REGRESI�N M�LTIPLE #########################")
-######################### MODELO DE REGRESI�N M�LTIPLE #########################
+print("######################### MODELO DE REGRESIÓN MÚLTIPLE #########################")
+######################### MODELO DE REGRESIÓN MÚLTIPLE #########################
 
 print("######################### INVOLACT (nueva politica de viviendas) #########################")
 ######################### INVOLACT (nueva politica de viviendas) #########################
@@ -651,28 +651,28 @@ summary(rel)
 x = data$raza....chicago.race
 y = data$politicavivienda2....chicago.involact
 plot(x=x, y=y , col.main="white", col.sub="white", col.lab="white",
-     col.axis="white", fg="white",col="dark red", pch=20, ylab="Involact", xlab="Race", main="Modelo de regresi�n m�ltiple INVOLACT, gr�fico de RACE")
+     col.axis="white", fg="white",col="dark red", pch=20, ylab="Involact", xlab="Race", main="Modelo de regresión múltiple INVOLACT, gráfico de RACE")
 abline(rel)
 
 ### 2
 
 x = data$fuego....chicago.fire
 plot(x=x, y=y , col.main="white", col.sub="white", col.lab="white",
-     col.axis="white", fg="white",col="dark red", pch=20, ylab="Involact", xlab="Fire", main="Modelo de regresi�n m�ltiple INVOLACT, gr�fico de FIRE")
+     col.axis="white", fg="white",col="dark red", pch=20, ylab="Involact", xlab="Fire", main="Modelo de regresión múltiple INVOLACT, gráfico de FIRE")
 abline(rel)
 
 ### 3
 
 x = data$robo....chicago.theft
 plot(x=x, y=y , col.main="white", col.sub="white", col.lab="white",
-     col.axis="white", fg="white",col="dark red", pch=20, ylab="Involact", xlab="Theft", main="Modelo de regresi�n m�ltiple INVOLACT, gr�fico de THEFT")
+     col.axis="white", fg="white",col="dark red", pch=20, ylab="Involact", xlab="Theft", main="Modelo de regresión múltiple INVOLACT, gráfico de THEFT")
 abline(rel)
 
 ### 4
 
 x = data$edad....chicago.age
 plot(x=x, y=y , col.main="white", col.sub="white", col.lab="white",
-     col.axis="white", fg="white",col="dark red", pch=20, ylab="Involact", xlab="Age", main="Modelo de regresi�n m�ltiple INVOLACT, gr�fico de AGE")
+     col.axis="white", fg="white",col="dark red", pch=20, ylab="Involact", xlab="Age", main="Modelo de regresión múltiple INVOLACT, gráfico de AGE")
 abline(rel)
 
 
@@ -704,7 +704,7 @@ summary(rel)
 pairs(regresion, pch = 16, cex = 1.3, col = "blue", main = "Modelo Volact c/ Race e Intercept", col.main="white", col.sub="white", col.lab="white", col.axis="white", fg="white")
 
 plot(data$politicaVivienda1....chicago.volact, col.main="white", col.sub="white", col.lab="white",
-     col.axis="white", fg="white",col="cyan", pch=20, ylab="Frecuencia", xlab="Volact", main="Modelo de regresi�n m�ltiple VOLACT c/ Race e Intercept")
+     col.axis="white", fg="white",col="cyan", pch=20, ylab="Frecuencia", xlab="Volact", main="Modelo de regresión múltiple VOLACT c/ Race e Intercept")
 abline(rel)
 
 # R cuadrado del modelo sin RACE y el intercepto: 95.38%
@@ -724,7 +724,7 @@ pairs(regresionfix, pch = 16, cex = 1.3, col = "blue", main = "Modelo Volact s/ 
 
 x = data$robo....chicago.theft
 plot(x=x, y=y , col.main="white", col.sub="white", col.lab="white",
-     col.axis="white", fg="white",col="cyan", pch=20, ylab="Volact", xlab="Theft", main="Modelo de regresi�n m�ltiple VOLACT, gr�fico de THEFT")
+     col.axis="white", fg="white",col="cyan", pch=20, ylab="Volact", xlab="Theft", main="Modelo de regresión múltiple VOLACT, gráfico de THEFT")
 abline(rel)
 
 
@@ -732,7 +732,7 @@ abline(rel)
 
 x = data$edad....chicago.age
 plot(x=x, y=y , col.main="white", col.sub="white", col.lab="white",
-     col.axis="white", fg="white",col="cyan", pch=20, ylab="Volact", xlab="Age", main="Modelo de regresi�n m�ltiple VOLACT, gr�fico de AGE")
+     col.axis="white", fg="white",col="cyan", pch=20, ylab="Volact", xlab="Age", main="Modelo de regresión múltiple VOLACT, gráfico de AGE")
 abline(rel)
 
 
@@ -740,14 +740,14 @@ abline(rel)
 
 x = data$fuego....chicago.fire
 plot(x=x, y=y , col.main="white", col.sub="white", col.lab="white",
-     col.axis="white", fg="white",col="cyan", pch=20, ylab="Volact", xlab="Fire", main="Modelo de regresi�n m�ltiple VOLACT, gr�fico de FIRE")
+     col.axis="white", fg="white",col="cyan", pch=20, ylab="Volact", xlab="Fire", main="Modelo de regresión múltiple VOLACT, gráfico de FIRE")
 abline(rel)
 
 ### 4
 
 x = data$ingresofamiliar....chicago.income
 plot(x=x, y=y , col.main="white", col.sub="white", col.lab="white",
-     col.axis="white", fg="white",col="cyan", pch=20, ylab="Volact", xlab="Income", main="Modelo de regresi�n m�ltiple VOLACT, gr�fico de INCOME")
+     col.axis="white", fg="white",col="cyan", pch=20, ylab="Volact", xlab="Income", main="Modelo de regresión múltiple VOLACT, gráfico de INCOME")
 abline(rel)
 
 
@@ -763,36 +763,36 @@ summary(rel)
 
 
 
-# ahora sí, la última pregunta: en involact la variable "income" no es significativa, por lo cual, se podría inferir que gracias a la nueva política de viviendas, no es relevante tener un bajo/alto ingreso familiar para acceder a ellas en comparación con la antigua... sin embargo, con la variable no significativa "fire" en volact se podría inferir también que estas nuevas viviendas son más susceptibles a incendios que las anteriores...
-# pareciera ser que la nueva política de viviendas trajo consigo, viviendas más accesibles pero más susceptibles a incendios...
+# ahora sÃ­, la Ãºltima pregunta: en involact la variable "income" no es significativa, por lo cual, se podrÃ­a inferir que gracias a la nueva polÃ­tica de viviendas, no es relevante tener un bajo/alto ingreso familiar para acceder a ellas en comparaciÃ³n con la antigua... sin embargo, con la variable no significativa "fire" en volact se podrÃ­a inferir tambiÃ©n que estas nuevas viviendas son mÃ¡s susceptibles a incendios que las anteriores...
+# pareciera ser que la nueva polÃ­tica de viviendas trajo consigo, viviendas mÃ¡s accesibles pero mÃ¡s susceptibles a incendios...
 
-######################### Plano de regresión para INVOLACT#########################
+######################### Plano de regresiÃ³n para INVOLACT#########################
 
 
-# *** Desde aquí dado que la variable "age" no tiene mayor relevancia en nueva política de viviendas (en términos de las edades de las personas que adquieren casas con INVOLACT)
-# entonces, se remueve dicha variable para realizar un análisis a mayor detalle con un plano de regresión solo con race, fire y theft
-# sin embargo, dado que dicha gráfica requeriría de 4 dimensiones, (con volact o involact en relación con race, fire y theft), se debe
-# eliminar otra variable para realizar el plano, por lo cual, se opta por realizar tres relaciones distintas por sustitución, para así
-# quedar con aquellas gráficas relevantes
+# *** Desde aquÃ­ dado que la variable "age" no tiene mayor relevancia en nueva polÃ­tica de viviendas (en tÃ©rminos de las edades de las personas que adquieren casas con INVOLACT)
+# entonces, se remueve dicha variable para realizar un anÃ¡lisis a mayor detalle con un plano de regresiÃ³n solo con race, fire y theft
+# sin embargo, dado que dicha grÃ¡fica requerirÃ­a de 4 dimensiones, (con volact o involact en relaciÃ³n con race, fire y theft), se debe
+# eliminar otra variable para realizar el plano, por lo cual, se opta por realizar tres relaciones distintas por sustituciÃ³n, para asÃ­
+# quedar con aquellas grÃ¡ficas relevantes
 
-# Primera relación: INVOLACT con fire y theft
+# Primera relaciÃ³n: INVOLACT con fire y theft
 
 par(mar=c(1,1,1,1), mfrow=c(1,1))
 x <- data$robo....chicago.theft
 y <- data$fuego....chicago.fire
 z <- data$politicavivienda2....chicago.involact
 
-# Realizando el plano de regresión lineal (z = ax + by + d)
+# Realizando el plano de regresiÃ³n lineal (z = ax + by + d)
 
-# Dispersión 
+# DispersiÃ³n 
 open3d()
 plot3d(x, y, z, back = "lines")
 
 
-# Plano de regresión 
+# Plano de regresiÃ³n 
 fit <- lm(z ~ x + y)
 
-# Gráfica 3D
+# GrÃ¡fica 3D
 open3d()
 plot3d(fit, which=1, plane.col="orange", use_surface3d=TRUE)
 
