@@ -1,2 +1,2 @@
-# ML
-Material de estudio de Machine Learning
+# DS
+Material de estudio de Data Science
