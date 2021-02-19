@@ -11,11 +11,14 @@ Material de estudio de Data Science
 * [Redes neuronales](https://github.com/adinamarca/notebooks/tree/main/PY/ML/4_redes_neuronales).
 
 # R
+[R DS](https://github.com/adinamarca/notebooks/tree/main/R).
+
 
 ## Informe laboratorio sobre BBDD Chicago
 * [Informe](https://github.com/adinamarca/notebooks/tree/main/R/EX/bbdd_chicago).
 
 # SQL
+[SQL DS](https://github.com/adinamarca/notebooks/tree/main/SQL).
 
 ## Intermediate SQL (DATACAMP)
 * [SQL Intermedio por Datacamp en Jupyter](https://github.com/adinamarca/notebooks/tree/main/R/EX/bbdd_chicago).
