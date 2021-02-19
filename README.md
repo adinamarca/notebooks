@@ -2,20 +2,20 @@
 Material de estudio de Data Science
 
 # Python
-[Vínculo](https://github.com/adinamarca/notebooks/tree/main/PY).
+[Python DS](https://github.com/adinamarca/notebooks/tree/main/PY).
 
 ## Machine Learning en Python
-* [Vínculo](https://github.com/adinamarca/notebooks/tree/main/PY/ML/1_regresion_lineal).
-* [Vínculo](https://github.com/adinamarca/notebooks/tree/main/PY/ML/2_descenso_gradiente).
-* [Vínculo](https://github.com/adinamarca/notebooks/tree/main/PY/ML/3_regresion_logistica).
-* [Vínculo](https://github.com/adinamarca/notebooks/tree/main/PY/ML/4_redes_neuronales).
+* [Regresión lineal](https://github.com/adinamarca/notebooks/tree/main/PY/ML/1_regresion_lineal).
+* [Descenso del gradiente](https://github.com/adinamarca/notebooks/tree/main/PY/ML/2_descenso_gradiente).
+* [Regresión logística](https://github.com/adinamarca/notebooks/tree/main/PY/ML/3_regresion_logistica).
+* [Redes neuronales](https://github.com/adinamarca/notebooks/tree/main/PY/ML/4_redes_neuronales).
 
 # R
 
 ## Informe laboratorio sobre BBDD Chicago
-* [Vínculo](https://github.com/adinamarca/notebooks/tree/main/R/EX/bbdd_chicago).
+* [Informe](https://github.com/adinamarca/notebooks/tree/main/R/EX/bbdd_chicago).
 
 # SQL
 
 ## Intermediate SQL (DATACAMP)
-* [Vínculo](https://github.com/adinamarca/notebooks/tree/main/R/EX/bbdd_chicago).
+* [SQL Intermedio por Datacamp en Jupyter](https://github.com/adinamarca/notebooks/tree/main/R/EX/bbdd_chicago).
