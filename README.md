@@ -1,5 +1,5 @@
 # Notebooks sobre Data Science
-Material de estudio de Data Science
+Material de estudio de Data Science, recopilado por Alejandro Dinamarca.
 
 # Python
 [Python DS](https://github.com/adinamarca/notebooks/tree/main/PY).
