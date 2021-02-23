@@ -6,7 +6,7 @@ El repositorio inició el 13/02/2021. Llevo casi un año aprendiendo Ciencia de 
 
 Por otro lado, si no fuese por los enormes creadores de contenido recopilados aquí, sería sumamente difícil introducirse en este mundo complejo y en constante desarrollo.
 
-Creo firmemente que, con persistencia, se pueden lograr los más grandes desafíos. Y he ahí, un poco de mi persistencia. Recalco, este contenido es recopilado a partir de casi un año de aprendizaje, en caso de querer ver la ruta completa, todos los cursos que he y voy completando los añado a [Linkedin](https://www.linkedin.com/in/alejandrodinamarca/), los que se encuentran con fecha de realización. Espero sea útil.
+Creo firmemente que, con persistencia, se pueden lograr los más grandes desafíos. Y he ahí, un poco de mi persistencia. Recalco, este contenido es recopilado a partir de casi un año de aprendizaje, por lo que, solo está recopilado los estudios autónomos a partir del 13/02/2021, en caso de querer ver la ruta completa, todos los cursos que he y voy completando los añado a [Linkedin](https://www.linkedin.com/in/alejandrodinamarca/), los que se encuentran con fecha de realización en mi perfil.
 
 # Python
 * [Python DS](https://github.com/adinamarca/notebooks/tree/main/PY).
