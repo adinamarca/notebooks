@@ -5,5 +5,5 @@ Aquí el vínculo:
 [European Soccer Database](https://www.kaggle.com/hugomathien/soccer).
 
 # Basado en el curso de Datacamp
-[INTERMEDIATE SQL](https://learn.datacamp.com/courses/intermediate-sql).
+El código proviene desde Datacamp, link del curso en [el siguiente vínculo](https://learn.datacamp.com/courses/intermediate-sql).
 
