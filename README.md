@@ -2,7 +2,9 @@
 Material de estudio de Data Science, recopilado por Alejandro Dinamarca.
 
 # Historia
-El repositorio inició el 13/02/2021. Llevo casi un año aprendiendo Ciencia de Datos, entre Datacamp, cursos de Andrew NG. de Machine Learning en Coursera, videos de DOT.CSV, entre otros. Lamentablemente, hace poco tuve la ocurrencia de registrar mis estudios autónomos... Pero creo también es una forma de devolver, en algo, la mano, debido a que si no fuese por los enormes creadores de contenido recopilados aquí, sería sumamente difícil introducirse en este mundo complejo y en constante desarrollo.
+El repositorio inició el 13/02/2021. Llevo casi un año aprendiendo Ciencia de Datos, entre Datacamp, cursos de Andrew NG. de Machine Learning en Coursera, videos de DOT.CSV, entre otros. Lamentablemente, hace poco tuve la ocurrencia de registrar mis estudios autónomos... Sin embargo, he aquí una forma de devolver, en algo, las enormes contribuciones de otras personas que me han ayudado, directa o indirectamente, en este proceso. 
+
+Por otro lado, si no fuese por los enormes creadores de contenido recopilados aquí, sería sumamente difícil introducirse en este mundo complejo y en constante desarrollo.
 
 Creo firmemente que, con persistencia, se pueden lograr los más grandes desafíos. Y he ahí, un poco de mi persistencia. Recalco, este contenido es recopilado a partir de casi un año de aprendizaje, en caso de querer ver la ruta completa, todos los cursos que he y voy completando los añado a [Linkedin](https://www.linkedin.com/in/alejandrodinamarca/), los que se encuentran con fecha de realización. Espero sea útil.
 
