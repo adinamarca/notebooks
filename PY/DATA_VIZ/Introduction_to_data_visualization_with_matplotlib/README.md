@@ -1,2 +1,0 @@
-### Data Visualization
-* [Introducción a la visualización de Data con Matplotlib por Datacamp](https://github.com/adinamarca/notebooks/blob/main/PY/DATA_VIZ/Introduction_to_data_visualization_with_matplotlib/notebook.ipynb).
