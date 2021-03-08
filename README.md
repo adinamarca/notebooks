@@ -30,5 +30,5 @@ Creo firmemente que, con persistencia, se pueden lograr los más grandes desafí
 # SQL
 * [Directorio de SQL](https://github.com/adinamarca/notebooks/tree/main/SQL).
 
-### Intermediate SQL (DATACAMP)
+### SQL
 * [SQL Intermedio por Datacamp en Jupyter](https://github.com/adinamarca/notebooks/blob/main/SQL/intermediate_sql/notebook.ipynb).
