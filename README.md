@@ -19,7 +19,9 @@ Creo firmemente que, con persistencia, se pueden lograr los más grandes desafí
 
 ### Data Visualization
 * [Introducción a la visualización de Data con Matplotlib por Datacamp](https://github.com/adinamarca/notebooks/blob/main/PY/DATA_VIZ/Introduction_to_data_visualization_with_matplotlib/notebook.ipynb).
-* 
+* [Introducción a Seaborn](https://github.com/adinamarca/notebooks/blob/main/PY/DATA_VIZ/Introduction_to_seaborn/notebook.ipynb).
+
+
 
 # R
 * [R DS](https://github.com/adinamarca/notebooks/tree/main/R).
