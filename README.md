@@ -21,10 +21,8 @@ Creo firmemente que, con persistencia, se pueden lograr los más grandes desafí
 * [Introducción a la visualización de Data con Matplotlib por Datacamp](https://github.com/adinamarca/notebooks/blob/main/PY/DATA_VIZ/Introduction_to_data_visualization_with_matplotlib/notebook.ipynb).
 * [Introducción a Seaborn por Datacamp](https://github.com/adinamarca/notebooks/blob/main/PY/DATA_VIZ/Introduction_to_seaborn/notebook.ipynb).
 
-
-
-# R
-* [R DS](https://github.com/adinamarca/notebooks/tree/main/R).
+# EX (informes, o investigaciones)
+* [Informe laboratorio sobre BBDD Chicago](https://github.com/adinamarca/notebooks/tree/main/R).
 
 ### Informe laboratorio sobre BBDD Chicago
 * [Informe](https://github.com/adinamarca/notebooks/blob/main/R/EX/bbdd_chicago/informelabchicago.pdf).
