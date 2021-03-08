@@ -9,7 +9,7 @@ Por otro lado, si no fuese por los enormes creadores de contenido recopilados aq
 Creo firmemente que, con persistencia, se pueden lograr los más grandes desafíos. Y he ahí, un poco de mi persistencia. Recalco, este contenido es recopilado a partir de casi un año de aprendizaje, por lo que, solo está recopilado los estudios autónomos a partir del 13/02/2021, en caso de querer ver la ruta completa, todos los cursos que he y voy completando los añado a [Linkedin](https://www.linkedin.com/in/alejandrodinamarca/), los que se encuentran con fecha de realización en mi perfil.
 
 # Python
-* [Python DS](https://github.com/adinamarca/notebooks/tree/main/PY).
+* [Directorio de Python](https://github.com/adinamarca/notebooks/tree/main/PY).
 
 ### Machine Learning en Python (DOT.CSV, ANDREW.NG, CODEBASICS, entre otros)
 * [Regresión lineal](https://github.com/adinamarca/notebooks/blob/main/PY/ML/1_regresion_lineal/notebook.ipynb).
@@ -21,14 +21,14 @@ Creo firmemente que, con persistencia, se pueden lograr los más grandes desafí
 * [Introducción a la visualización de Data con Matplotlib por Datacamp](https://github.com/adinamarca/notebooks/blob/main/PY/DATA_VIZ/Introduction_to_data_visualization_with_matplotlib/notebook.ipynb).
 * [Introducción a Seaborn por Datacamp](https://github.com/adinamarca/notebooks/blob/main/PY/DATA_VIZ/Introduction_to_seaborn/notebook.ipynb).
 
-# EX (informes, o investigaciones)
-* [Informe laboratorio sobre BBDD Chicago](https://github.com/adinamarca/notebooks/tree/main/R).
+# R
+* [Directorio de R](https://github.com/adinamarca/notebooks/tree/main/R).
 
-### Informe laboratorio sobre BBDD Chicago
+### EX (informes, o investigaciones)
 * [Informe](https://github.com/adinamarca/notebooks/blob/main/R/EX/bbdd_chicago/informelabchicago.pdf).
 
 # SQL
-* [SQL DS](https://github.com/adinamarca/notebooks/tree/main/SQL).
+* [Directorio de SQL](https://github.com/adinamarca/notebooks/tree/main/SQL).
 
 ### Intermediate SQL (DATACAMP)
 * [SQL Intermedio por Datacamp en Jupyter](https://github.com/adinamarca/notebooks/blob/main/SQL/intermediate_sql/notebook.ipynb).
