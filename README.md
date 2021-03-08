@@ -25,7 +25,7 @@ Creo firmemente que, con persistencia, se pueden lograr los más grandes desafí
 * [Directorio de R](https://github.com/adinamarca/notebooks/tree/main/R).
 
 ### EX (informes, o investigaciones)
-* [Informe](https://github.com/adinamarca/notebooks/blob/main/R/EX/bbdd_chicago/informelabchicago.pdf).
+* [Informe laboratorio sobre BBDD Chicago](https://github.com/adinamarca/notebooks/blob/main/R/EX/bbdd_chicago/informelabchicago.pdf).
 
 # SQL
 * [Directorio de SQL](https://github.com/adinamarca/notebooks/tree/main/SQL).
