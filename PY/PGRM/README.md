@@ -1,2 +1,2 @@
 ## Programación
-* [OOP en Python](https://github.com/adinamarca/notebooks/blob/main/PY/DATA_VIZ/Introduction_to_matplotlib/notebook.ipynb).
+* [OOP en Python](https://github.com/adinamarca/notebooks/blob/main/PY/PGRM/Object_oriented_programming_in_python/notebook.ipynb).
