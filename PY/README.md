@@ -1,4 +1,4 @@
-## Machine Learning en Python
+## Machine Learning en Python enfocado a la teoría
 * [Regresión lineal](https://github.com/adinamarca/notebooks/blob/main/PY/ML/1_regresion_lineal/notebook.ipynb).
 * [Descenso del gradiente](https://github.com/adinamarca/notebooks/blob/main/PY/ML/2_descenso_gradiente/notebook.ipynb).
 * [Regresión logística](https://github.com/adinamarca/notebooks/blob/main/PY/ML/3_regresion_logistica/notebook.ipynb).
