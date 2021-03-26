@@ -1,1 +1,0 @@
-¡El comienzo con pyTorch!
