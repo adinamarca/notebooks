@@ -15,7 +15,7 @@ Los notebooks demoran en cargar, en particular, los que tienen un alto peso (>1 
 # Python
 * [Directorio de Python](https://github.com/adinamarca/notebooks/tree/main/PY).
 
-### Machine Learning en Python (DOT.CSV, ANDREW.NG, CODEBASICS, entre otros)
+### Machine Learning en Python enfocado a la teoría (DOT.CSV, ANDREW.NG, CODEBASICS, entre otros)
 * [Regresión lineal](https://github.com/adinamarca/notebooks/blob/main/PY/ML/1_regresion_lineal/notebook.ipynb).
 * [Descenso del gradiente](https://github.com/adinamarca/notebooks/blob/main/PY/ML/2_descenso_gradiente/notebook.ipynb).
 * [Regresión logística](https://github.com/adinamarca/notebooks/blob/main/PY/ML/3_regresion_logistica/notebook.ipynb).
